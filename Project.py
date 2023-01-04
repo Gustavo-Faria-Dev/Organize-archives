@@ -20,7 +20,7 @@ numchar = int(input('Digite o número de caracteres\n'))
 for file in os.listdir(caminho):
         name.append(str(file))        
 
-#pegando apenas os primeiros charac 
+#select firts char from strings 
 for nome in name:
         name[i] = nome[:numchar]
         i=i+1
